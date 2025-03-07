@@ -84,7 +84,6 @@ const PropertyFilter = () => {
         ))}
       </div>
       
-      {/* Bathrooms */}
       <div className="mt-4">
         <h3 className="font-medium">Bathrooms</h3>
         {["1", "2", "3+"].map((bathroom) => (

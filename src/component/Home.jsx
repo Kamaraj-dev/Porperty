@@ -70,7 +70,7 @@ const Home=()=>{
     return(
         <div className="flex w-full">
             <div className="md:w-5/6">{data.map((datas,index)=><Card key={index}{...datas}/>)}</div>
-            <div className="hidden md:w-1/6"><PropertyFilter/></div>
+            <div className=" hidden md:block md:w-1/6"><PropertyFilter/></div>
         </div>
     );
 }
